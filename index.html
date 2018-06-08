@@ -1,1 +1,59 @@
-this is a test
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Firebase Web Basics</title>    
+
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700">
+        <script type="text/javascript" src="https://use.fontawesome.com/939e9dd52c.js"></script>
+
+    </head>
+    <body>
+
+        <div class="container-fluid">
+        
+<!--             <form id="registerForm">
+                <div class="form-group">
+                  <label for="emailAddress">Email Address</label>
+                  <input type="text" class="form-control" id="emailAddress" placeholder="Enter Email Address">
+                </div>
+                
+                <div class="form-group">
+                  <label for="password">Password</label>
+                  <input type="password" class="form-control" id="password" placeholder="Enter password">
+                </div>
+                
+                <button type="button" class="btn btn-success" id="loginButton" >login</button>
+                <button type="button" class="btn btn-primary" id="registerButton" >Register</button>
+                <button type="button" class="btn btn-warning" id="cancelButton" >Cancel</button>
+            </form> -->
+
+            <div class="mainDiv" align="right">
+            	<h1 id="fireHeading" align="left">Firebase Web App</h1>
+            	<textarea id="mainText" placeholder="Enter text here"></textarea>
+            	<button id="submitButton" onclick="submitClick()"><i class="fa fa-arrow right" aria-hidden="true"></i>You are a button</button>
+            </div>
+
+
+        </div>
+
+	<script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+	<script>
+	  // Initialize Firebase
+	  var config = {
+	    apiKey: "AIzaSyAtThvuWV6WYtyI4q69y6h90q2T4yZ3-Q4",
+	    authDomain: "newfirebasetestproject-2830f.firebaseapp.com",
+	    databaseURL: "https://newfirebasetestproject-2830f.firebaseio.com",
+	    projectId: "newfirebasetestproject-2830f",
+	    storageBucket: "newfirebasetestproject-2830f.appspot.com",
+	    messagingSenderId: "343942183290"
+	  };
+	  firebase.initializeApp(config);
+	</script>
+
+	<script src="index.js"></script>
+
+    </body>
+    </html>
+
+
+

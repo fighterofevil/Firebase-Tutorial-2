@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<div class="mainDiv" align="left">
+		<h1>All Users</h1>
+		<table>
+			<thead>
+				<tr>
+					<td>Name</td>
+					<td>Email</td>
+					<td>Actions</td>
+				</tr>
+			</thead>
+			<tbody id="table_body">
+<!-- 				<tr>
+					<td>Kevin McGrory</td>
+					<td>kevin@kevinmcgrory.com</td>
+					<td><button>Remove</button></td>
+				</tr>
+				<tr>
+					<td>Kevin at Work</td>
+					<td>kmcgrory@geiger.com</td>
+					<td><button>Remove</button></td>
+				</tr>	 -->						
+			</tbody>
+		</table>
+	</div>
+
+
+
+	<script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+	<script>
+	  // Initialize Firebase
+	  var config = {
+	    apiKey: "AIzaSyAtThvuWV6WYtyI4q69y6h90q2T4yZ3-Q4",
+	    authDomain: "newfirebasetestproject-2830f.firebaseapp.com",
+	    databaseURL: "https://newfirebasetestproject-2830f.firebaseio.com",
+	    projectId: "newfirebasetestproject-2830f",
+	    storageBucket: "newfirebasetestproject-2830f.appspot.com",
+	    messagingSenderId: "343942183290"
+	  };
+	  firebase.initializeApp(config);
+	</script>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script src="dataRet.js"></script>
+
+</body>
+</html>
